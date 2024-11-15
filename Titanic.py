@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-titanic_data = pd.read_csv('D:/train.csv')
+titanic_data = pd.read_csv('train.csv')
 print(titanic_data.head())
 print(titanic_data.info())
 print(titanic_data.describe())
